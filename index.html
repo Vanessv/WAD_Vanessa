@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vanessa Wiyen Cristie - CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f3f0;
+            color: #4a3f35;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(45deg, #a47551, #dec397);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            font-size: 2.5em;
+            font-weight: 600;
+            letter-spacing: 2px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in;
+        }
+
+        .profile-image {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-image img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            border: 5px solid #dec397;
+        }
+
+        .profile-image img:hover {
+            transform: scale(1.2);
+        }
+
+        h2 {
+            color: #a47551;
+            font-size: 1.8em;
+            border-bottom: 3px solid #dec397;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+
+        p, ul {
+            line-height: 1.8;
+            font-size: 1.15em;
+            margin-bottom: 20px;
+            color: #4a3f35;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background-color: #a47551;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        td {
+            background-color: #f5f3f0;
+            color: #4a3f35;
+        }
+
+        a {
+            color: #a47551;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        a:hover {
+            color: #dec397;
+            background-color: rgba(174, 134, 112, 0.1);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            header {
+                font-size: 2em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    Vanessa Wiyen Cristie
+</header>
+
+<div class="container">
+
+    <div class="profile-image">
+        <img src="Vanessa_CV.jpg" alt="Vanessa Wiyen Cristie">
+    </div>
+
+    <h2>Biodata</h2>
+    <p>I am a 5th-semester Information Systems student at Telkom University, passionate about utilizing technology to enhance business processes. Actively seeking internships that complement my studies and allow me to contribute to projects while developing my skills.</p>
+
+    <h2>Education History</h2>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Education Level</th>
+            <th>Institution</th>
+        </tr>
+        <tr>
+            <td>2022 - Present</td>
+            <td>Undergraduate</td>
+            <td>Telkom University</td>
+        </tr>
+        <tr>
+            <td>2019 - 2022</td>
+            <td>High School</td>
+            <td>SMAK Penabur Cirebon</td>
+        </tr>
+        <tr>
+            <td>2016 - 2019</td>
+            <td>Middle School</td>
+            <td>SMPK Penabur Cirebon</td>
+        </tr>
+        <tr>
+            <td>2010 - 2016</td>
+            <td>Elementary School</td>
+            <td>SDK Plus Penabur Cirebon</td>
+        </tr>
+    </table>
+
+    <h2>About Me</h2>
+    <ul>
+        <li>Adaptable and quick learner, with a focus on acquiring new skills.</li>
+        <li>Solid foundation in UI and graphic design, blending technical and creative expertise.</li>
+        <li>Proficient in statistics and mathematics, efficiently handling data-driven tasks.</li>
+        <li>Strong aptitude for writing, enabling clear communication of complex ideas.</li>
+    </ul>
+
+    <p>Explore my work by visiting my portfolio <a href="portfolio.html" target="_blank">here</a>.</p>
+</div>
+
+</body>
+
+</html>

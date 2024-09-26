@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vanessa Wiyen Cristie - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f3f0;
+            color: #4a3f35;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        header {
+            background: linear-gradient(45deg, #a47551, #dec397);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            font-size: 2.5em;
+            font-weight: 600;
+            letter-spacing: 2px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in;
+        }
+
+        h2 {
+            color: #a47551;
+            font-size: 2em;
+            border-bottom: 3px solid #dec397;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h3 {
+            color: #a47551;
+            padding: 20px;
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.8;
+            padding: 0 20px 20px;
+            color: #4a3f35;
+        }
+
+        a {
+            color: #a47551;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        a:hover {
+            color: #dec397;
+            background-color: rgba(174, 134, 112, 0.1);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                font-size: 2em;
+                padding: 40px 0;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    Vanessa Wiyen Cristie - Portfolio
+</header>
+
+<div class="container">
+
+    <h2>My Projects</h2>
+
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="1_Portfolio.jpg" alt="Project 1" class="portfolio-image">
+            <h3>Project 1: Voice-Controlled Chatbot for the Disabled</h3>
+            <p>This project focused on developing a voice-controlled chatbot designed to assist disabled users by helping them with daily tasks such as opening applications, sending messages, performing calculations, etc.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="2_Portfolio.jpg" alt="Project 2" class="portfolio-image">
+            <h3>Project 2: Gamified Learning App UI Design</h3>
+            <p>This project features a comprehensive UI design for a gamified educational app for both teachers and students. Tools utilized include Figma and Maze for effective prototyping and usability testing.</p>
+        </div>
+    </div>
+
+    <p>For more information about my background, please <a href="index.html">return to my CV</a>.</p>
+</div>
+
+</body>
+
+</html>
